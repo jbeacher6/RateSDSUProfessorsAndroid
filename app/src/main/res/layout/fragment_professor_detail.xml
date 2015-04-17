@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:layout_weight="0.00" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_ratings_button"
+        android:id="@+id/get_ratings_button"
+        android:layout_weight="0.45"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post_ratings_button"
+        android:id="@+id/post_ratings_button"
+        android:layout_weight="0.45"
+        />
+
+
+</LinearLayout>

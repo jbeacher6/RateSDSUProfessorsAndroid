@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/professorrategragment_rate_stars_bar"
+        android:layout_below="@+id/professorratefragment_post_rating_for_professor_text"
+        android:layout_centerHorizontal="true"
+        android:numStars="5"
+        android:stepSize="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/post_ratings_button"
+        android:id="@+id/professorratefragment_post_rating_for_professor_text"
+        android:layout_alignRight="@+id/professorratefragment_enter_text"
+        android:layout_alignEnd="@+id/professorratefragment_enter_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/enter_text"
+        android:id="@+id/professorratefragment_enter_text"
+        android:layout_below="@+id/professorrategragment_rate_stars_bar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/professorratefragment_post_edit_text"
+        android:layout_below="@+id/professorratefragment_enter_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rate_confirm"
+        android:id="@+id/professorratefragment_post_rating_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/professorratefragment_post_edit_text" />
+
+</RelativeLayout>

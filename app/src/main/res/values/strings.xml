@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment3a</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="professor_list">Rate Professors</string>
+    <string name="professor_details">Professor Details</string>
+    <string name="professor_comments">Professor Comments</string>
+    <string name="professor_rate">Rate Professor</string>
+    <string name="get_ratings_button">View comments for Professor </string>
+    <string name="post_ratings_button">Post a rating for Professor </string>
+    <string name="professor_rate_two">Rate Professor: </string>
+    <string name="rate_confirm">Post Rating</string>
+    <string name="enter_text">Enter text:</string>
+
+</resources>
